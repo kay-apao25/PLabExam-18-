@@ -1,0 +1,7 @@
+Display scores of each team
+Represent yourself as a scorer
+
+1.) Add score of team 1
+2.) Add score of team 2
+3.) Display score of team 1
+4.) Display score of team 2
