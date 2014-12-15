@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Score App</title>
+</head>
+<body>
+<form id="score-form">
+<label>Team: </label><input name="team"
+type="text"/>
+<label>Score: </label><input name="dscore"
+type="int"/>
+<input type="submit"/>
+</form>
+
+{% if score1 %}
+Score of Team 1: {{ score1 }}
+{% endif %}
+{% if score2 %}
+Score of Team 2: {{ score2 }}
+{% endif %}
+
+</body>
+</html>
